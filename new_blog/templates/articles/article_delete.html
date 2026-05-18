@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% load crispy_forms_tags %}
+
+{% block content %}
+<h1>Delete post</h1>
+<form action="" method="post">
+    {% csrf_token %}
+    <p> Do you want delete the post named"{{ artile.title}"?</p>
+    <button type="submit" class="btn btn-outline-primary">Yes</button>
+</form>
+{% endblock content %}
