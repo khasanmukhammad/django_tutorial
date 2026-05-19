@@ -1,0 +1,70 @@
+body {
+    background: #0f172a;
+    color: #e2e8f0;
+}
+
+/* NAVBAR */
+.navbar {
+    background: #111827 !important;
+}
+
+/* HERO */
+.hero {
+    padding: 90px 20px;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 52px;
+    font-weight: bold;
+}
+
+.hero p {
+    color: #94a3b8;
+    font-size: 18px;
+}
+
+/* CARDS */
+.card {
+    background: #1e293b;
+    border: none;
+    color: #e2e8f0;
+    transition: 0.3s;
+}
+
+
+/* BUTTON */
+.btn-custom {
+    background: #38bdf8;
+    color: #0f172a;
+    font-weight: bold;
+    border: none;
+}
+
+.btn-custom:hover {
+    background: #0ea5e9;
+}
+
+/* LOGIN REQUIRED BOX */
+.auth-box {
+    background: #1e293b;
+    border: 1px solid #334155;
+    border-radius: 12px;
+    padding: 25px;
+    text-align: center;
+    margin: 40px auto;
+    max-width: 600px;
+}
+
+.auth-box h3 {
+    color: #fbbf24;
+}
+
+.auth-box p {
+    color: #94a3b8;
+}
+
+/* FOOTER */
+footer {
+    color: #64748b;
+}
